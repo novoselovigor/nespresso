@@ -308,6 +308,7 @@
       <sounds/>
       <id>node2</id>
     </panorama>
+    <start>node3</start>
   </tour>
   <panorama>
     <id>master</id>
@@ -357,7 +358,7 @@
             <value id="parseanchor">false</value>
           </values>
           <enabled>1</enabled>
-          <filename>output/index.html</filename>
+          <filename>index.html</filename>
         </html>
         <facequality/>
         <transition>
@@ -376,7 +377,7 @@
           <enabled>0</enabled>
         </webvr>
         <tilesize>1024</tilesize>
-        <filename>output/pano.xml</filename>
+        <filename>pano.xml</filename>
         <skinfile>silhouette_cardboard.ggsk</skinfile>
         <rubberband>1</rubberband>
         <fovmode>vertical</fovmode>

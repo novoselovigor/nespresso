@@ -118,22 +118,22 @@
       </input>
       <viewingparameter>
         <pan>
-          <start>0</start>
+          <start>-4.69</start>
           <min>0</min>
           <max>360</max>
         </pan>
         <tilt>
-          <start>0</start>
+          <start>0.49</start>
           <min>-90</min>
           <max>90</max>
         </tilt>
         <fov>
-          <start>40.3</start>
+          <start>67.3</start>
           <minunit>pixels</minunit>
-          <minpixels>2</minpixels>
-          <max>119</max>
-          <maxfovstereographic>265</maxfovstereographic>
-          <maxfovfisheye>358</maxfovfisheye>
+          <minpixels>1</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
         </fov>
         <flyinstart>
           <pan>0</pan>
@@ -144,7 +144,7 @@
         <scaletofit>1</scaletofit>
         <projection>rectilinear</projection>
         <flyinprojection>stereo</flyinprojection>
-        <defaultviewtimestamp>2020-10-06T13:11:31</defaultviewtimestamp>
+        <defaultviewtimestamp>2020-10-06T13:58:53</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <capturedatetime>2020-10-06T10:57:12</capturedatetime>
@@ -154,7 +154,7 @@
       <hotspots>
         <hotspot>
           <position>
-            <pan>-294.11</pan>
+            <pan>-293.96</pan>
             <tilt>-1.99</tilt>
             <fov>10</fov>
           </position>
@@ -377,7 +377,7 @@
         </webvr>
         <tilesize>1024</tilesize>
         <filename>output/pano.xml</filename>
-        <skinfile>cardboard.ggsk</skinfile>
+        <skinfile>silhouette_cardboard.ggsk</skinfile>
         <rubberband>1</rubberband>
         <fovmode>vertical</fovmode>
       </htmlcss>

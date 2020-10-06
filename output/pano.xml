@@ -33,16 +33,16 @@
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start projection="4" tilt="0" fov="40.3" pan="0"/>
+      <start projection="4" tilt="0.49" fov="67.3" pan="-4.69"/>
       <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max fovfisheye="358" tilt="90" fov="119" pan="360" fovstereographic="265" scaletofit="1"/>
+      <min tilt="-90" pan="0" fovpixel="1"/>
+      <max fovfisheye="360" tilt="90" fov="120" pan="360" fovstereographic="270" scaletofit="1"/>
     </view>
     <userdata longitude="" customnodeid="" title="" copyright="" author="" latitude="" info="" description="" datetime="" source="" nodeid="node1" comment="" tags="10-01" heading="0"/>
     <hotspots wordwrap="1" width="180" height="20">
       <label background="1" enabled="1" backgroundcolor="0xffffff" textalpha="1" borderalpha="1" borderradius="1" border="1" textcolor="0x000000" wordwrap="1" width="180" height="20" backgroundalpha="1" bordercolor="0x000000"/>
       <polystyle backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff"/>
-      <hotspot title="" tilt="-1.99" url="{node3}" pan="-294.11" description="" id="Point01" skinid="ht_node" target=""/>
+      <hotspot title="" tilt="-1.99" url="{node3}" pan="-293.96" description="" id="Point01" skinid="ht_node" target=""/>
       <hotspot title="" tilt="-3.48" url="{node2}" pan="-181.3" description="" id="Point02" skinid="ht_node" target=""/>
     </hotspots>
     <media/>

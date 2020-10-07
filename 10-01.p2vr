@@ -215,6 +215,37 @@
           <clickmode>none</clickmode>
           <handcursor>1</handcursor>
         </sound>
+        <sound>
+          <position>
+            <pan>2.37</pan>
+            <tilt>-8.62</tilt>
+          </position>
+          <videorect>
+            <rotx>0</rotx>
+            <roty>0</roty>
+            <rotz>0</rotz>
+            <fov>15.57</fov>
+            <stretch>100</stretch>
+            <dimx>192</dimx>
+            <dimy>192</dimy>
+          </videorect>
+          <type>image</type>
+          <id>Element01</id>
+          <filename>patches/mask.png</filename>
+          <mode>0</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>1</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>0</startmutedmobile>
+          <level>1</level>
+          <loop>1</loop>
+          <copyfile>1</copyfile>
+          <clickmode>none</clickmode>
+          <handcursor>0</handcursor>
+        </sound>
       </sounds>
       <id>node8</id>
     </panorama>

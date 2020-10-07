@@ -53,7 +53,7 @@
       <video rotx="0.000" pan="2.400" mode="1" pansize="10.000" tilt="-8.740" fov="16.040" level="1.000" tiltsize="10.000" nodechangekeep="0" ambientlevel="0.000" width="192" id="Cup" height="192" clickmode="0" stretch="1.000" roty="0.000" field="90.000" handcursor="1" startmutedmobile="1" rotz="0.000" loop="-1">
         <source url="media/present-high-es_patch2.mp4"/>
       </video>
-      <image rotz="0.000" rotx="0.000" handcursor="0" id="Element01" height="192" pan="2.370" fov="15.572" clickmode="0" roty="0.000" stretch="1.000" width="192" tilt="-8.620">
+      <image rotz="0.000" rotx="0.000" handcursor="0" id="Element01" height="192" pan="2.370" fov="15.570" clickmode="0" roty="0.000" stretch="1.000" width="192" tilt="-8.620">
         <source url="media/mask.png"/>
       </image>
     </media>

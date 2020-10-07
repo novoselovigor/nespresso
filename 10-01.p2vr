@@ -124,6 +124,30 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position>
+            <pan>-11.14</pan>
+            <tilt>-15.19</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Coffe Start</id>
+          <linktype>url</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>ht_controll</skinid>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
@@ -144,7 +168,7 @@
             <dimy>192</dimy>
           </videorect>
           <type>video</type>
-          <id>Element01</id>
+          <id>Karafe</id>
           <filename>present-high-es_patch.mp4</filename>
           <mode>1</mode>
           <nodechangekeep>0</nodechangekeep>
@@ -157,8 +181,39 @@
           <level>1</level>
           <loop>-1</loop>
           <copyfile>1</copyfile>
-          <clickmode>playstop</clickmode>
+          <clickmode>none</clickmode>
           <handcursor>0</handcursor>
+        </sound>
+        <sound>
+          <position>
+            <pan>2.4</pan>
+            <tilt>-8.74</tilt>
+          </position>
+          <videorect>
+            <rotx>0</rotx>
+            <roty>0</roty>
+            <rotz>0</rotz>
+            <fov>16.04</fov>
+            <stretch>100</stretch>
+            <dimx>192</dimx>
+            <dimy>192</dimy>
+          </videorect>
+          <type>video</type>
+          <id>Cup</id>
+          <filename>present-high-es_patch2.mp4</filename>
+          <mode>1</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>1</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>1</startmutedmobile>
+          <level>1</level>
+          <loop>-1</loop>
+          <copyfile>1</copyfile>
+          <clickmode>none</clickmode>
+          <handcursor>1</handcursor>
         </sound>
       </sounds>
       <id>node8</id>
@@ -458,7 +513,7 @@
         <webvr/>
         <tilesize>1024</tilesize>
         <filename>pano.xml</filename>
-        <skinfile>silhouette_cardboard.ggsk</skinfile>
+        <skinfile>$d/silhouette_cardboard.ggsk</skinfile>
         <quality>85</quality>
         <windowwidth>480</windowwidth>
         <windowheight>640</windowheight>

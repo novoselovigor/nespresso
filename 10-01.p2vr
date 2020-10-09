@@ -5,57 +5,6 @@
     <panorama>
       <input>
         <patch/>
-        <type>equirectangular</type>
-        <filename>videos/VR Master1 (VR Output)_2_0-01.tif</filename>
-        <videofile>videos/VR Master1 (VR Output)_2_0.mp4</videofile>
-        <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
-        <startmutedmobile>1</startmutedmobile>
-      </input>
-      <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
-      </viewingparameter>
-      <userdata>
-        <capturedatetime>2020-10-09T15:07:09</capturedatetime>
-        <tags>videos</tags>
-      </userdata>
-      <floorplans/>
-      <hotspots>
-        <hotspot>
-          <position/>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <polygon>
-            <polystring>-340.04/6.23|-20.87/6.52|-22.01/-5.26|-339.83/-5.3</polystring>
-            <usedefaultcolor>1</usedefaultcolor>
-            <backgroundcolor>#0000ff,64</backgroundcolor>
-            <bordercolor>#0000ff</bordercolor>
-          </polygon>
-          <type>poly</type>
-          <id>Poly01</id>
-          <title>Herlizch Willkommen!</title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node8}</url>
-        </hotspot>
-      </hotspots>
-      <output/>
-      <streetview/>
-      <streetviewproject/>
-      <sounds/>
-      <id>node9</id>
-    </panorama>
-    <panorama>
-      <input>
-        <patch/>
         <type>auto</type>
         <filename>C:/Users/novoselov/Downloads/20200925_Nespresso_Showroom/20200925_Nespresso_Showroom/Render/10-01/welcome.tif</filename>
         <videotype>equi</videotype>
@@ -554,17 +503,17 @@
         <sequence/>
       </animation>
     </panorama>
-    <start>node10</start>
+    <start>node9</start>
     <panorama>
       <input>
         <patch/>
         <type>equirectangular</type>
-        <filename>C:/Users/novoselov/Desktop/Vr Master1 (Vr Output) 2 0-1(1)-01.tif</filename>
-        <videofile>C:/Users/novoselov/Desktop/Vr Master1 (Vr Output) 2 0-1(1).mp4</videofile>
+        <filename>C:/Users/novoselov/Desktop/Vr05-01.tif</filename>
+        <videofile>C:/Users/novoselov/Desktop/Vr05.mp4</videofile>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
-        <startmutedmobile>1</startmutedmobile>
+        <startmutedmobile>0</startmutedmobile>
       </input>
       <viewingparameter>
         <pan/>
@@ -574,36 +523,16 @@
         <pannorth>0</pannorth>
       </viewingparameter>
       <userdata>
-        <capturedatetime>2020-10-09T16:27:06</capturedatetime>
+        <capturedatetime>2020-10-09T16:55:46</capturedatetime>
         <tags>Desktop</tags>
       </userdata>
       <floorplans/>
-      <hotspots>
-        <hotspot>
-          <position/>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <polygon>
-            <polystring>-337.67/-4.35|-338.04/7.86|-22.59/7.03|-23.33/-5.79</polystring>
-            <usedefaultcolor>1</usedefaultcolor>
-            <backgroundcolor>#0000ff,64</backgroundcolor>
-            <bordercolor>#0000ff</bordercolor>
-          </polygon>
-          <type>poly</type>
-          <id>Poly01</id>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node8}</url>
-        </hotspot>
-      </hotspots>
+      <hotspots/>
       <output/>
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node10</id>
+      <id>node9</id>
     </panorama>
   </tour>
   <panorama>
@@ -635,10 +564,16 @@
         </html>
         <facequality/>
         <transition/>
-        <autorotate/>
+        <autorotate>
+          <enabled>0</enabled>
+          <afterloaded>1</afterloaded>
+          <speed>0.1</speed>
+          <delay>10</delay>
+          <useAnimation>0</useAnimation>
+        </autorotate>
         <soundstransition/>
         <flyintransition>
-          <enabled>1</enabled>
+          <enabled>0</enabled>
         </flyintransition>
         <hotspottext>
           <background>0</background>
@@ -646,13 +581,30 @@
           <textcolor>#ffffff</textcolor>
         </hotspottext>
         <hotspotstyle/>
-        <webvr/>
+        <webvr>
+          <enabled>0</enabled>
+        </webvr>
         <tilesize>1024</tilesize>
         <filename>pano.xml</filename>
-        <skinfile>$d/silhouette_cardboard.ggsk</skinfile>
+        <skinfile>silhouette_v6.ggsk</skinfile>
         <quality>85</quality>
         <windowwidth>480</windowwidth>
         <windowheight>640</windowheight>
+        <skinconfiguration>
+          <value id="opt_projection">false</value>
+        </skinconfiguration>
+        <skintablesconfiguration/>
+        <skincolorsconfiguration>
+          <value id="Button/Hotspot Background">4278190080</value>
+          <value id="Button/Hotspot Foreground">4294967295</value>
+          <value id="Screen Tint">1677721600</value>
+          <value id="Scrollbar Background">1677721600</value>
+          <value id="Scrollbar Foreground">4278190080</value>
+          <value id="Thumbnail Active Border">4290822336</value>
+          <value id="Thumbnail Border">4278190080</value>
+          <value id="Tooltip Text Background">838860800</value>
+          <value id="Tooltip Text Foreground">4294967295</value>
+        </skincolorsconfiguration>
       </htmlcss>
       <htmlcss>
         <html>

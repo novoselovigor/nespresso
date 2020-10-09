@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Pano2VR project file  -->
-<pano2vrconfig version="6.1.9" rev="17985">
+<pano2vrconfig rev="17985" version="6.1.9">
   <tour>
     <panorama>
       <input>
@@ -554,7 +554,57 @@
         <sequence/>
       </animation>
     </panorama>
-    <start>node9</start>
+    <start>node10</start>
+    <panorama>
+      <input>
+        <patch/>
+        <type>equirectangular</type>
+        <filename>C:/Users/novoselov/Desktop/Vr Master1 (Vr Output) 2 0-1(1)-01.tif</filename>
+        <videofile>C:/Users/novoselov/Desktop/Vr Master1 (Vr Output) 2 0-1(1).mp4</videofile>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+        <startmutedmobile>1</startmutedmobile>
+      </input>
+      <viewingparameter>
+        <pan/>
+        <tilt/>
+        <fov/>
+        <flyinstart/>
+        <pannorth>0</pannorth>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2020-10-09T16:27:06</capturedatetime>
+        <tags>Desktop</tags>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <polystring>-337.67/-4.35|-338.04/7.86|-22.59/7.03|-23.33/-5.79</polystring>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node8}</url>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node10</id>
+    </panorama>
   </tour>
   <panorama>
     <id>master</id>

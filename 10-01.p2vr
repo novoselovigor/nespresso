@@ -5,6 +5,60 @@
     <panorama>
       <input>
         <patch/>
+        <type>equirectangular</type>
+        <filename>C:/Users/novoselov/Desktop/Vr05-01.tif</filename>
+        <videofile>C:/Users/novoselov/Desktop/VR Master1 (VR Output)_2_0.mp4</videofile>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+        <startmutedmobile>0</startmutedmobile>
+        <startonload>1</startonload>
+        <altvideo>
+          <filename>C:/Users/novoselov/Desktop/Vr05.mp4</filename>
+        </altvideo>
+      </input>
+      <viewingparameter>
+        <pan/>
+        <tilt/>
+        <fov/>
+        <flyinstart/>
+        <pannorth>0</pannorth>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2020-10-09T16:55:46</capturedatetime>
+        <tags>Desktop</tags>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <polystring>-338.64/7.5|-339.14/-4|-22.03/-4.16|-22.32/7.19</polystring>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node8}</url>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node9</id>
+    </panorama>
+    <panorama>
+      <input>
+        <patch/>
         <type>auto</type>
         <filename>C:/Users/novoselov/Downloads/20200925_Nespresso_Showroom/20200925_Nespresso_Showroom/Render/10-01/welcome.tif</filename>
         <videotype>equi</videotype>
@@ -504,36 +558,6 @@
       </animation>
     </panorama>
     <start>node9</start>
-    <panorama>
-      <input>
-        <patch/>
-        <type>equirectangular</type>
-        <filename>C:/Users/novoselov/Desktop/Vr05-01.tif</filename>
-        <videofile>C:/Users/novoselov/Desktop/Vr05.mp4</videofile>
-        <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
-        <startmutedmobile>0</startmutedmobile>
-      </input>
-      <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
-        <pannorth>0</pannorth>
-      </viewingparameter>
-      <userdata>
-        <capturedatetime>2020-10-09T16:55:46</capturedatetime>
-        <tags>Desktop</tags>
-      </userdata>
-      <floorplans/>
-      <hotspots/>
-      <output/>
-      <streetview/>
-      <streetviewproject/>
-      <sounds/>
-      <id>node9</id>
-    </panorama>
   </tour>
   <panorama>
     <id>master</id>
@@ -569,7 +593,8 @@
           <afterloaded>1</afterloaded>
           <speed>0.1</speed>
           <delay>10</delay>
-          <useAnimation>0</useAnimation>
+          <useAnimation>1</useAnimation>
+          <syncanimwithvideo>1</syncanimwithvideo>
         </autorotate>
         <soundstransition/>
         <flyintransition>
@@ -586,7 +611,7 @@
         </webvr>
         <tilesize>1024</tilesize>
         <filename>pano.xml</filename>
-        <skinfile>silhouette_v6.ggsk</skinfile>
+        <skinfile>$d/silhouette_v6.ggsk</skinfile>
         <quality>85</quality>
         <windowwidth>480</windowwidth>
         <windowheight>640</windowheight>
@@ -605,6 +630,8 @@
           <value id="Tooltip Text Background">838860800</value>
           <value id="Tooltip Text Foreground">4294967295</value>
         </skincolorsconfiguration>
+        <hideaboutbox>1</hideaboutbox>
+        <invertcontrol>1</invertcontrol>
       </htmlcss>
       <htmlcss>
         <html>

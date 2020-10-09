@@ -1,7 +1,58 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Pano2VR project file  -->
-<pano2vrconfig rev="17985" version="6.1.9">
+<pano2vrconfig version="6.1.9" rev="17985">
   <tour>
+    <panorama>
+      <input>
+        <patch/>
+        <type>equirectangular</type>
+        <filename>videos/VR Master1 (VR Output)_2_0-01.tif</filename>
+        <videofile>videos/VR Master1 (VR Output)_2_0.mp4</videofile>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+        <startmutedmobile>1</startmutedmobile>
+      </input>
+      <viewingparameter>
+        <pan/>
+        <tilt/>
+        <fov/>
+        <flyinstart/>
+        <pannorth>0</pannorth>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2020-10-09T15:07:09</capturedatetime>
+        <tags>videos</tags>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <polystring>-310.36/15.4|-50.78/11.22|-51.46/-16.74|-50.64/-17.22|-309.86/-17.19|-310.58/-15.99</polystring>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly01</id>
+          <title>Herlizch Willkommen!</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node8}</url>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node9</id>
+    </panorama>
     <panorama>
       <input>
         <patch/>
@@ -217,21 +268,21 @@
         </sound>
         <sound>
           <position>
-            <pan>2.37</pan>
-            <tilt>-8.62</tilt>
+            <pan>2.39</pan>
+            <tilt>-8.82</tilt>
           </position>
           <videorect>
             <rotx>0</rotx>
             <roty>0</roty>
             <rotz>0</rotz>
-            <fov>15.57</fov>
+            <fov>19.4458</fov>
             <stretch>100</stretch>
-            <dimx>192</dimx>
-            <dimy>192</dimy>
+            <dimx>224</dimx>
+            <dimy>224</dimy>
           </videorect>
           <type>image</type>
           <id>Element01</id>
-          <filename>patches/mask.png</filename>
+          <filename>patches/mask2.png</filename>
           <mode>0</mode>
           <nodechangekeep>0</nodechangekeep>
           <locked>1</locked>
@@ -503,7 +554,7 @@
         <sequence/>
       </animation>
     </panorama>
-    <start>node6</start>
+    <start>node9</start>
   </tour>
   <panorama>
     <id>master</id>
@@ -539,7 +590,11 @@
         <flyintransition>
           <enabled>1</enabled>
         </flyintransition>
-        <hotspottext/>
+        <hotspottext>
+          <background>0</background>
+          <border>0</border>
+          <textcolor>#ffffff</textcolor>
+        </hotspottext>
         <hotspotstyle/>
         <webvr/>
         <tilesize>1024</tilesize>

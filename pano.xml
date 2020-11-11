@@ -26,8 +26,7 @@
     <control contextprojections="0" lockedkeyboard="0" dblclickfullscreen="0" lockedmouse="0" contextfullscreen="1" simulatemass="1" lockedwheel="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" rubberband="0" hideabout="1" invertcontrol="1" speedwheel="1"/>
   </panorama>
   <panorama id="node8" hideabout="1">
-    <input leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2048" levelbiashidpi="1.000" height="2048" leveltilesize="510" levelingroll="0" overlap="1" levelingpitch="0" levelbias="0.400">
-      <level predecode="0" width="2048" height="2048" preload="0"/>
+    <input leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1024" levelbiashidpi="1.000" height="1024" leveltilesize="510" levelingroll="0" overlap="1" levelingpitch="0" levelbias="0.400">
       <level predecode="0" width="1024" height="1024" preload="0"/>
       <level predecode="0" width="512" height="512" preload="1"/>
       <level predecode="1" width="256" height="256" preload="1"/>
@@ -45,7 +44,7 @@
       <polystyle backgroundcolor="0x0000ff" mode="0" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1"/>
       <hotspot title="Vertuo Details" description="" id="zoom" url="{node10}" tilt="-14.69" skinid="ht_node_zoom" target="" pan="-1.18"/>
       <hotspot title="" description="" id="ht_node_b2b" url="{node12}" tilt="-1.47" skinid="ht_node_b2b" target="" pan="-21.18"/>
-      <hotspot title="" description="" id="Point04" url="{node9}" tilt="-10.69" skinid="ht_node_exit" target="" pan="-183.61"/>
+      <hotspot title="" description="" id="Point04" url="{node9}" tilt="-10.4" skinid="ht_node_exit" target="" pan="-187.02"/>
       <hotspot title="" description="" id="ht_node_enter_recycle" url="{node11}" tilt="-0.96" skinid="ht_node_enter_recycle" target="" pan="-0.54"/>
       <hotspot title="Capsules" description="" id="Point01" url="https://www.nespresso.com/de/en/order/capsules/vertuo" tilt="-13.34" skinid="ht_node_link" target="_blank" pan="-15.12"/>
       <hotspot title="Vertuo Machines Kaufen" description="" id="Point02" url="https://www.nespresso.com/de/en/order/machines/vertuo" tilt="-3.73" skinid="ht_node_link" target="_blank" pan="-358.63"/>
@@ -153,7 +152,7 @@
       <hotspot title="Kontaktformular" description="" id="Point04" url="https://www.nespresso.com/pro/de/de/professional-kontakt" tilt="-21.03" skinid="ht_form" target="_blank" pan="-56.69"/>
       <hotspot title="" description="" id="Point05" url="https://www.nespresso.com/pro/de/de/new-work" tilt="-0.65" skinid="ht_url" target="_blank" pan="-53.85"/>
       <hotspot title="" description="" id="Point06" url="https://www.nespresso.com/pro/de/de/kaffeemaschinen-buero" tilt="0.26" skinid="ht_url" target="_blank" pan="-111.5"/>
-      <hotspot title="Flyer und PDF" description="" id="Point07" url="https://www.nespresso.com/shared_res/b2b/docs/recipes/ch/recettes_DE_caramel.pdf&#xa;" tilt="-20.92" skinid="ht_pdf" target="_blank" pan="-50.24"/>
+      <hotspot title="Flyer und PDF" description="" id="Point07" url="https://www.nespresso.com/shared_res/b2b/docs/recipes/ch/recettes_DE_caramel.pdf&#xa;" tilt="-20.91" skinid="ht_pdf" target="_blank" pan="-50.31"/>
     </hotspots>
     <media/>
     <transition zoomin="2" enabled="0" type="crossdissolve" zoomout="0" softedge="0" zoomafterinfov="110" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1" zoomfov="40" zoomafteroutfov="40" blendtime="0.3"/>

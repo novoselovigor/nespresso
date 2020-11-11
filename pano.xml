@@ -126,8 +126,7 @@
     <control contextprojections="0" lockedkeyboard="0" dblclickfullscreen="0" lockedmouse="0" contextfullscreen="1" simulatemass="1" lockedwheel="0" invertwheel="0" lockedkeyboardzoom="0" sensitivity="8" rubberband="0" hideabout="1" invertcontrol="1" speedwheel="1"/>
   </panorama>
   <panorama id="node12" hideabout="1">
-    <input leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2048" levelbiashidpi="1.000" height="2048" leveltilesize="510" levelingroll="0" overlap="1" levelingpitch="0" levelbias="0.400">
-      <level predecode="0" width="2048" height="2048" preload="0"/>
+    <input leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1024" levelbiashidpi="1.000" height="1024" leveltilesize="510" levelingroll="0" overlap="1" levelingpitch="0" levelbias="0.400">
       <level predecode="0" width="1024" height="1024" preload="0"/>
       <level predecode="0" width="512" height="512" preload="1"/>
       <level predecode="1" width="256" height="256" preload="1"/>
@@ -149,10 +148,10 @@
       <hotspot title="" description="&lt;a href=&quot;https://www.nespresso.com/pro/de/de/order/capsules/pro/50-kaffeekapseln-peru-organic&quot;>Bio Kaffee&lt;/a>&#xa;&#xa;&lt;a href=&quot;https://www.zeit.de/angebote/nachhaltiger-kaffee/biokaffee-aus-den-anden/index&quot;>Advertorial&lt;/a>&lt;/font>" id="Point01" url="" tilt="-17.49" skinid="ht_info" target="" pan="-234.13"/>
       <hotspot title="Milchkreationen" description="" id="Point02" url="https://www.nespresso.com/de/de/nespresso-vertuo-kaffeegenuss-original" tilt="-12.58" skinid="ht_url" target="_blank" pan="-321.82"/>
       <hotspot title="Momento Coffee &amp; Milk 120" description="" id="Point03" url="https://www.nespresso.com/pro/de/de/order/machines/pro/momento-120-kaffeemaschine" tilt="-1.87" skinid="ht_url" target="_blank" pan="-9.39"/>
-      <hotspot title="Kontaktformular" description="" id="Point04" url="https://www.nespresso.com/pro/de/de/professional-kontakt" tilt="-21.03" skinid="ht_form" target="_blank" pan="-56.69"/>
+      <hotspot title="Kontaktformular" description="" id="Point04" url="https://www.nespresso.com/pro/de/de/professional-kontakt" tilt="-20.98" skinid="ht_form" target="_blank" pan="-50.06"/>
       <hotspot title="" description="" id="Point05" url="https://www.nespresso.com/pro/de/de/new-work" tilt="-0.65" skinid="ht_url" target="_blank" pan="-53.85"/>
       <hotspot title="" description="" id="Point06" url="https://www.nespresso.com/pro/de/de/kaffeemaschinen-buero" tilt="0.26" skinid="ht_url" target="_blank" pan="-111.5"/>
-      <hotspot title="Flyer und PDF" description="" id="Point07" url="https://www.nespresso.com/shared_res/b2b/docs/recipes/ch/recettes_DE_caramel.pdf&#xa;" tilt="-20.91" skinid="ht_pdf" target="_blank" pan="-50.31"/>
+      <hotspot title="Flyer und PDF" description="" id="Point07" url="https://www.nespresso.com/shared_res/b2b/docs/recipes/ch/recettes_DE_caramel.pdf&#xa;" tilt="-21.75" skinid="ht_pdf" target="_blank" pan="-54.23"/>
     </hotspots>
     <media/>
     <transition zoomin="2" enabled="0" type="crossdissolve" zoomout="0" softedge="0" zoomafterinfov="110" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1" zoomfov="40" zoomafteroutfov="40" blendtime="0.3"/>

@@ -1,27 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Pano2VR project file  -->
-<pano2vrconfig rev="17985" version="6.1.9">
+<pano2vrconfig version="6.1.10" rev="18007">
   <tour>
     <panorama>
       <input>
         <patch/>
-        <type>equirectangular</type>
-        <filename>C:/Users/novoselov/Desktop/Vr05-01.tif</filename>
-        <videofile>C:/Users/novoselov/Desktop/VR Master1 (VR Output)_2_0.mp4</videofile>
+        <type>auto</type>
+        <filename>C:\Users\novoselov\Downloads\20200925_Nespresso_Showroom\20200925_Nespresso_Showroom\Render\10-05\eingang.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
-        <startmutedmobile>1</startmutedmobile>
-        <startonload>1</startonload>
-        <altvideo>
-          <filename>C:/Users/novoselov/Desktop/Vr05.mp4</filename>
-        </altvideo>
       </input>
       <viewingparameter>
         <pan>
           <start>0</start>
-          <min>0</min>
-          <max>360</max>
+          <min>-85.47</min>
+          <max>94.37</max>
         </pan>
         <tilt>
           <start>0</start>
@@ -29,7 +23,7 @@
           <max>90</max>
         </tilt>
         <fov>
-          <start>120</start>
+          <start>70</start>
           <minunit>pixels</minunit>
           <minpixels>2</minpixels>
           <max>120</max>
@@ -45,89 +39,17 @@
         <scaletofit>1</scaletofit>
         <projection>rectilinear</projection>
         <flyinprojection>rectilinear</flyinprojection>
-        <defaultviewtimestamp>2020-10-09T17:57:40</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
-        <capturedatetime>2020-10-09T16:55:46</capturedatetime>
-        <tags>Desktop</tags>
-      </userdata>
-      <floorplans/>
-      <hotspots>
-        <hotspot>
-          <position/>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <polygon>
-            <polystring>-338.64/7.5|-339.14/-4|-22.03/-4.16|-22.32/7.19</polystring>
-            <usedefaultcolor>1</usedefaultcolor>
-            <backgroundcolor>#0000ff,64</backgroundcolor>
-            <bordercolor>#0000ff</bordercolor>
-          </polygon>
-          <type>poly</type>
-          <id>Poly01</id>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node8}</url>
-        </hotspot>
-      </hotspots>
-      <output/>
-      <streetview/>
-      <streetviewproject/>
-      <sounds/>
-      <id>node9</id>
-    </panorama>
-    <panorama>
-      <input>
-        <patch/>
-        <type>auto</type>
-        <filename>C:/Users/novoselov/Downloads/20200925_Nespresso_Showroom/20200925_Nespresso_Showroom/Render/10-01/welcome.tif</filename>
-        <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
-      </input>
-      <viewingparameter>
-        <pan>
-          <start>0</start>
-          <min>0</min>
-          <max>360</max>
-        </pan>
-        <tilt>
-          <start>0</start>
-          <min>-90</min>
-          <max>90</max>
-        </tilt>
-        <fov>
-          <start>49</start>
-          <minunit>pixels</minunit>
-          <minpixels>1</minpixels>
-          <max>120</max>
-          <maxfovstereographic>270</maxfovstereographic>
-          <maxfovfisheye>360</maxfovfisheye>
-        </fov>
-        <flyinstart>
-          <pan>0</pan>
-          <tilt>0</tilt>
-          <fov>49</fov>
-        </flyinstart>
-        <pannorth>0</pannorth>
-        <scaletofit>1</scaletofit>
-        <projection>rectilinear</projection>
-        <flyinprojection>rectilinear</flyinprojection>
-        <defaultviewtimestamp>2020-10-07T11:48:51</defaultviewtimestamp>
-      </viewingparameter>
-      <userdata>
-        <capturedatetime>2020-10-07T11:35:36</capturedatetime>
-        <tags>10-01</tags>
+        <capturedatetime>2020-10-13T19:23:45</capturedatetime>
+        <tags>10-05</tags>
       </userdata>
       <floorplans/>
       <hotspots>
         <hotspot>
           <position>
-            <pan>-1.64</pan>
-            <tilt>-3.55</tilt>
+            <pan>-359.75</pan>
+            <tilt>-6.71</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -137,7 +59,7 @@
           </next>
           <polygon/>
           <type>point</type>
-          <id>Point01</id>
+          <id>Willkommen!</id>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node8}</url>
@@ -153,7 +75,7 @@
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node6</id>
+      <id>node9</id>
     </panorama>
     <panorama>
       <input>
@@ -165,11 +87,33 @@
         <levelroll>0</levelroll>
       </input>
       <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
+        <pan>
+          <start>0</start>
+          <min>-132.79</min>
+          <max>128.78</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>70</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
         <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
       </viewingparameter>
       <userdata>
         <capturedatetime>2020-10-07T13:44:47</capturedatetime>
@@ -204,7 +148,7 @@
         <hotspot>
           <position>
             <pan>-11.14</pan>
-            <tilt>-15.19</tilt>
+            <tilt>-16.1</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -218,6 +162,54 @@
           <linktype>url</linktype>
           <linksubtype>unknown</linksubtype>
           <skinid>ht_controll</skinid>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-357.46</pan>
+            <tilt>-16.34</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node10}</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-23.13</pan>
+            <tilt>0.38</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node2}</url>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
@@ -325,6 +317,258 @@
         </sound>
       </sounds>
       <id>node8</id>
+    </panorama>
+    <panorama>
+      <input>
+        <patch>
+          <imagepatch>
+            <pan>-0.45</pan>
+            <tilt>-3.73</tilt>
+            <fov>34.26</fov>
+            <roll>0</roll>
+            <aspectratio>1</aspectratio>
+            <applyafterlevelling>1</applyafterlevelling>
+            <locked>1</locked>
+            <quality>90</quality>
+            <filename>patches/Closeup-hq2_patch.psd</filename>
+            <type>image</type>
+            <blurintensity>10</blurintensity>
+            <lastmodified>2020-10-14T14:26:40</lastmodified>
+          </imagepatch>
+        </patch>
+        <type>auto</type>
+        <filename>C:\Users\novoselov\Downloads\20200925_Nespresso_Showroom\20200925_Nespresso_Showroom\Render\10-05\Closeup-hq2.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan>
+          <start>0</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>55</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>rectilinear</flyinprojection>
+        <defaultviewtimestamp>2020-10-14T11:19:24</defaultviewtimestamp>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2020-10-14T10:27:31</capturedatetime>
+        <tags>10-01</tags>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position>
+            <pan>-2.81</pan>
+            <tilt>21.04</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point01</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node5}</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-27.14</pan>
+            <tilt>14.34</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node2}</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-0.36</pan>
+            <tilt>-18.83</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point03</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node8}</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-348.65</pan>
+            <tilt>-16</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>PolyTass</id>
+          <linktype>url</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>PolyTass</skinid>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-11.73</pan>
+            <tilt>-14.33</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>PolyKaraf</id>
+          <linktype>url</linktype>
+          <linksubtype>unknown</linksubtype>
+          <skinid>PolyKaraf</skinid>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds>
+        <sound>
+          <position>
+            <pan>-0.45</pan>
+            <tilt>-3.73</tilt>
+          </position>
+          <videorect>
+            <rotx>0</rotx>
+            <roty>0</roty>
+            <rotz>0</rotz>
+            <fov>34.26</fov>
+            <stretch>100</stretch>
+            <dimx>496</dimx>
+            <dimy>496</dimy>
+          </videorect>
+          <type>video</type>
+          <id>Tass</id>
+          <filename>C:/Users/novoselov/Downloads/20200925_Nespresso_Showroom/20200925_Nespresso_Showroom/PSD/VIDEOOUT/_10-12-Tasse-Animation-1.m4v</filename>
+          <mode>1</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>1</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>1</startmutedmobile>
+          <level>1</level>
+          <loop>-1</loop>
+          <copyfile>1</copyfile>
+          <clickmode>none</clickmode>
+          <handcursor>0</handcursor>
+          <previewfile>C:/Users/novoselov/Downloads/20200925_Nespresso_Showroom/20200925_Nespresso_Showroom/PSD/VIDEOOUT/_10-12-Karaffee-Animation-1_preview.jpg</previewfile>
+        </sound>
+        <sound>
+          <position>
+            <pan>-0.45</pan>
+            <tilt>-3.73</tilt>
+          </position>
+          <videorect>
+            <rotx>0</rotx>
+            <roty>0</roty>
+            <rotz>0</rotz>
+            <fov>34.26</fov>
+            <stretch>100</stretch>
+            <dimx>496</dimx>
+            <dimy>496</dimy>
+          </videorect>
+          <type>video</type>
+          <id>Karaf</id>
+          <filename>C:/Users/novoselov/Downloads/20200925_Nespresso_Showroom/20200925_Nespresso_Showroom/PSD/VIDEOOUT/_10-12-Karaffee-Animation-1.m4v</filename>
+          <mode>1</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>1</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>1</startmutedmobile>
+          <level>1</level>
+          <loop>-1</loop>
+          <copyfile>1</copyfile>
+          <clickmode>none</clickmode>
+          <handcursor>0</handcursor>
+          <previewfile>C:/Users/novoselov/Downloads/20200925_Nespresso_Showroom/20200925_Nespresso_Showroom/PSD/VIDEOOUT/_10-12-Karaffee-Animation-1_preview.jpg</previewfile>
+        </sound>
+      </sounds>
+      <id>node10</id>
     </panorama>
     <panorama>
       <input>
@@ -443,8 +687,8 @@
         </pan>
         <tilt>
           <start>0</start>
-          <min>-43.89</min>
-          <max>51.95</max>
+          <min>-90</min>
+          <max>90</max>
         </tilt>
         <fov>
           <start>70</start>
@@ -487,6 +731,30 @@
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node1}</url>
+          <distance>0</distance>
+          <distanceauto>1</distanceauto>
+          <autoplace>0</autoplace>
+          <use3d>0</use3d>
+          <width>0</width>
+          <height>0</height>
+        </hotspot>
+        <hotspot>
+          <position>
+            <pan>-157.81</pan>
+            <tilt>-2.14</tilt>
+            <fov>10</fov>
+          </position>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon/>
+          <type>point</type>
+          <id>Point02</id>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node10}</url>
           <distance>0</distance>
           <distanceauto>1</distanceauto>
           <autoplace>0</autoplace>
@@ -600,7 +868,7 @@
       <htmlcss>
         <html>
           <enabled>1</enabled>
-          <filename>index.html</filename>
+          <filename>../nespresso2/index.html</filename>
           <values>
             <value id="css"/>
             <value id="gginfo">false</value>
@@ -610,7 +878,14 @@
           </values>
         </html>
         <facequality/>
-        <transition/>
+        <transition>
+          <zoomfov>40</zoomfov>
+          <zoominenabled>2</zoominenabled>
+          <zoomoutenabled>0</zoomoutenabled>
+          <transitiontime>0.3</transitiontime>
+          <zoomafterinfov>110</zoomafterinfov>
+          <zoomafteroutfov>40</zoomafteroutfov>
+        </transition>
         <autorotate>
           <enabled>0</enabled>
           <afterloaded>1</afterloaded>
@@ -635,28 +910,16 @@
           <enabled>0</enabled>
         </webvr>
         <tilesize>1024</tilesize>
-        <filename>pano.xml</filename>
-        <skinfile>$d/silhouette_v6.ggsk</skinfile>
+        <filename>../nespresso2/pano.xml</filename>
+        <skinfile>$d/silhouette_cardboard.ggsk</skinfile>
         <quality>85</quality>
         <windowwidth>480</windowwidth>
         <windowheight>640</windowheight>
-        <skinconfiguration>
-          <value id="opt_projection">false</value>
-        </skinconfiguration>
-        <skintablesconfiguration/>
-        <skincolorsconfiguration>
-          <value id="Button/Hotspot Background">4278190080</value>
-          <value id="Button/Hotspot Foreground">4294967295</value>
-          <value id="Screen Tint">1677721600</value>
-          <value id="Scrollbar Background">1677721600</value>
-          <value id="Scrollbar Foreground">4278190080</value>
-          <value id="Thumbnail Active Border">4290822336</value>
-          <value id="Thumbnail Border">4278190080</value>
-          <value id="Tooltip Text Background">838860800</value>
-          <value id="Tooltip Text Foreground">4294967295</value>
-        </skincolorsconfiguration>
         <hideaboutbox>1</hideaboutbox>
         <invertcontrol>1</invertcontrol>
+        <skinconfiguration/>
+        <skintablesconfiguration/>
+        <skincolorsconfiguration/>
       </htmlcss>
       <htmlcss>
         <html>
